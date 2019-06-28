@@ -1,0 +1,4 @@
+=== 1.1 ===
+
+ * Formatar texto
+ * bd de testes e bad oficial

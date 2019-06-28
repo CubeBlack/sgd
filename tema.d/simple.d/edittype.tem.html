@@ -1,0 +1,47 @@
+<h2>Editar {{name}}[{{id}}]</h2>
+<p>bla, bla nla</p>
+<form action="" method="">
+	<p>
+		Nome:
+		<input type="text" name="name" value="{{name}}" placeholder="Digite o nome aqui" id="" />
+	<p>
+	{{metacontent}}
+	<p>
+		<input type="submit">
+		<a href="?a=drop&id={{id}}">
+			<input type="button" value="Apagar">
+		</a>
+	</p>
+	<input type="hidden" name="id" value="{{id}}">
+	<input type="hidden" name="a" value="s">
+	<input type="hidden" name="meta" value="{{metaurl}}">
+</form>
+<fieldset>
+	<legend>Adicionar</legend>
+	<form action="" method="get">
+		<= Antes <input type="radio" name="posicao" value="a" />
+		<input type="radio" name="posicao" value="d" check> => Depois
+		
+		de: 
+		<select name="tipo">
+			{{criterioslist}}
+		</select>
+		
+		<select name="tipo">
+			<option value="group">Group</option>
+			<option value="number">Number</option>
+			<option value="label">Label(255 caracteres)</option>
+			<option value="text">Text(4000 caracteres)</option>
+			<option value="obj">Objeto</option>
+		</select>
+		
+		<input type="text" name="namemeta" value="undefined" placeholder="" />
+		<p>
+			<input type="submit">
+		</p>
+		
+		<input type="hidden" name="a" value="addmeta">
+		<input type="hidden" name="id" value="{{id}}">
+		<input type="hidden" name="meta" value="{{metaurl}}">
+	</form>
+</fieldset>

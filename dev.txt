@@ -1,0 +1,59 @@
+=== verção 1.0 ===
+
+	* Tipos de dados
+		* Texto, 5000 caracteres
+		* Label, 255 caracteres
+		* Number, numero qualquer de ate 8bits
+
+		* Object, Formardo por dados basicos
+		
+	* Funçoes para os dados
+		* Pesquisar
+		* Visualizar
+		* Editar
+		* Criar
+	* Obj, formado por vários tipos de dados
+
+=== Cronograma de testes ===
+
+	+ Testar texto
+		+ Visualizar
+		* Editar
+		+ Criar
+		+ Encontrar
+		+ Apagar
+	
+	+ Teste de Label
+		+ Visualizar
+		+ Editar
+		+ Criar
+		+ Encontrar
+		+ Apagar
+		
+	+ Teste de Label
+		+ Visualizar
+		+ Editar
+		+ Criar
+		+ Encontrar
+		+ Apagar
+	
+	*tipo
+		+ Visualizar
+		+ Editar
+		+ Criar
+		+ Encontrar
+		+ Apagar
+		* nome exckusivo para cada tipo
+		
+	* obj
+		+ Visualizar
+		+ Editar
+		+ Criar
+		+ Encontrar
+			* como encontrar um objeto?
+				ele é formado por varias partes
+				deve ser filtrado por suas partes.
+		+ Apagar
+		
+
+		

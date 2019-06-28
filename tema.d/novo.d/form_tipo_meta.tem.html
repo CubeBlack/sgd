@@ -1,0 +1,34 @@
+<fieldset>
+	<legend>Dado[none]</legend>
+	<form action="" method="get">
+		<p>
+			Rotulo:
+			<input type="text" name="rotulo" value="{{rotulo_value}}" placeholder="Digite um rotulo para o objeto" />
+		</p>
+		<p>
+			Tipo:
+			<select name="tipo">
+				{{tipooption}}
+			</select>
+		</p>
+		<p>
+			Modo:
+			<select name="modo">
+				<option value="0">Simples</option>
+				<option value="1">Composto</option>
+			</select>
+		</p>
+		<p>
+			index:
+			<input type="number" name="index" value="{{indice}}" placeholder="Digite um rotulo para o objeto" />
+		</p>
+<input type="hidden" name="id" value="{{tipo_id}}"/>
+<input type="hidden" name="meta_id" value="{{id}}"/>
+<input type="hidden" name="a" value="updatemeta"/>
+		<p>
+			<input type="submit" value="salvar">
+			<a href="?a=dropmeta&id={{typeid}}&idmeta={{id}}">Remover</a>
+		</p>
+		
+	</form>
+</fieldset>
